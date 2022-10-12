@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(227, 227, 227, 0.9);
 }
 
 .d-bloc .icon-round,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .container {
@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -819,6 +819,9 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bg-presentation {
@@ -1050,6 +1053,10 @@ h4 {
 }
 
 .footer-title {
-    color: #FFFFFF;
-    font-size: 1rem;
+    color: #000000!important;
+    font-size: 1.1rem!important;
+}
+
+.white-btn {
+    color: rgb(0, 0, 0)!important;
 }
